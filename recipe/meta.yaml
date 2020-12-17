@@ -1,5 +1,5 @@
 {% set name = "datacompy" %}
-{% set version = "0.6.0" %}
+{% set version = "0.7.0" %}
 
 package:
   name: "{{ name|lower }}"
@@ -7,11 +7,11 @@ package:
 
 source:
   url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/{{ name }}-{{ version }}.tar.gz
-  sha256: ae266c96bd96e090f3daa91668094bab487fdceff97c65c8f05324c7dabc0358
+  sha256: 1fe32a6f57a006450abf83790f2fa74fa7f725034a5a151f840171b569e1bc46
 
 build:
   noarch: python
-  number: 3
+  number: 0
   script: "{{ PYTHON }} -m pip install . -vv "
 
 requirements:
@@ -33,10 +33,12 @@ about:
   license: Apache-2.0
   license_family: APACHE
   license_file: LICENSE
-  summary: Dataframe comparison in Python
+  summary: Pandas and Spark DataFrame comparison for humans
 
 extra:
   recipe-maintainers:
     - pg-hbk
     - sy-hbk
     - fdosani
+    - elzzhu
+    - jborchma
