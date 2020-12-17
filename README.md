@@ -7,7 +7,7 @@ Package license: Apache-2.0
 
 Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/datacompy-feedstock/blob/master/LICENSE.txt)
 
-Summary: Dataframe comparison in Python
+Summary: Pandas and Spark DataFrame comparison for humans
 
 Current build status
 ====================
@@ -114,7 +114,9 @@ In order to produce a uniquely identifiable distribution:
 Feedstock Maintainers
 =====================
 
+* [@elzzhu](https://github.com/elzzhu/)
 * [@fdosani](https://github.com/fdosani/)
+* [@jborchma](https://github.com/jborchma/)
 * [@pg-hbk](https://github.com/pg-hbk/)
 * [@sy-hbk](https://github.com/sy-hbk/)
 
