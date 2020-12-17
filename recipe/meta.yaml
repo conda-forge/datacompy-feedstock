@@ -1,20 +1,20 @@
 {% set name = "datacompy" %}
-{% set version = "0.6.0" %}
+{% set version = "0.7.1" %}
 
- package:
-  name: "{{ name|lower }}"
-  version: "{{ version }}"
+package:
+  name: {{ name|lower }}
+  version: {{ version }}
 
- source:
+source:
   url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/{{ name }}-{{ version }}.tar.gz
-  sha256: ae266c96bd96e090f3daa91668094bab487fdceff97c65c8f05324c7dabc0358
+  sha256: a068b472ac4d0f6fb26dd7ece80c7a1a1897cb84452f2539aa178c6543f9ab39
 
- build:
+build:
   noarch: python
-  number: 3
-  script: "{{ PYTHON }} -m pip install . -vv "
+  number: 0
+  script: '{{ PYTHON }} -m pip install . -vv '
 
- requirements:
+requirements:
   host:
     - pip
     - python >=3.6
@@ -24,18 +24,18 @@
     - python >=3.6
 
 
- test:
+test:
   imports:
     - datacompy
 
- about:
+about:
   home: https://github.com/capitalone/datacompy
   license: Apache-2.0
   license_family: APACHE
   license_file: LICENSE
   summary: Dataframe comparison in Python
 
- extra:
+extra:
   recipe-maintainers:
     - pg-hbk
     - sy-hbk
