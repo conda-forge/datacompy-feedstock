@@ -1,11 +1,11 @@
-About datacompy
-===============
+About datacompy-feedstock
+=========================
+
+Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/datacompy-feedstock/blob/main/LICENSE.txt)
 
 Home: https://github.com/capitalone/datacompy
 
 Package license: Apache-2.0
-
-Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/datacompy-feedstock/blob/main/LICENSE.txt)
 
 Summary: Pandas and Spark DataFrame comparison for humans
 
