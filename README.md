@@ -145,4 +145,5 @@ Feedstock Maintainers
 
 * [@ak-gupta](https://github.com/ak-gupta/)
 * [@fdosani](https://github.com/fdosani/)
+* [@NikhilJArora](https://github.com/NikhilJArora/)
 
