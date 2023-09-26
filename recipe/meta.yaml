@@ -20,7 +20,7 @@ requirements:
     - python >=3.8
   run:
     - pandas <=2.0.2,>=0.25.0
-    - numpy <=1.24.3,>=1.22.0
+    - numpy <=1.26.0,>=1.22.0
     - ordered-set <=4.1.0,>=4.0.2
     - fugue <=0.8.6,>=0.8.6
     - python >=3.8
