@@ -23,6 +23,7 @@ requirements:
     - numpy <=1.26.4,>=1.22.0
     - ordered-set <=4.1.0,>=4.0.2
     - fugue <=0.8.7,>=0.8.7
+    - polars <=0.20.27,>=0.20.4
     - python >=3.9
 
 
@@ -43,4 +44,3 @@ extra:
     - gladysteh99
     - fdosani
     - ak-gupta
-    - NikhilJArora
