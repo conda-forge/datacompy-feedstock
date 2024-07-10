@@ -1,5 +1,5 @@
 {% set name = "datacompy" %}
-{% set version = "0.13.1" %}
+{% set version = "0.13.2" %}
 
 package:
   name: {{ name|lower }}
@@ -7,7 +7,7 @@ package:
 
 source:
   url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/{{ name }}-{{ version }}.tar.gz
-  sha256: 388090e39081041a851b715f0fdffa49de8ecd23864e0f63185ed96ebe509f92
+  sha256: d0399fe92eedb6cdc632cfb9c414ced431191367c7b6ed1c3899bde7277110ae
 
 build:
   noarch: python
