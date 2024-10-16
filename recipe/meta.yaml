@@ -17,6 +17,7 @@ build:
 requirements:
   host:
     - pip
+    - setuptools
     - python >=3.9
   run:
     - pandas <=2.2.2,>=0.25.0
