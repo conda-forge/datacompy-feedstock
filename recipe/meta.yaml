@@ -20,8 +20,8 @@ requirements:
     - setuptools
     - python >=3.9
   run:
-    - pandas <=2.2.2,>=0.25.0
-    - numpy <=1.26.4,>=1.22.0
+    - pandas <=2.2.3,>=0.25.0
+    - numpy <=2.1.2,>=1.22.0
     - ordered-set <=4.1.0,>=4.0.2
     - fugue <=0.9.1,>=0.8.7
     - polars <=1.7.0,>=0.20.4
