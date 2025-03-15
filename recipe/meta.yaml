@@ -1,5 +1,5 @@
 {% set name = "datacompy" %}
-{% set version = "0.16.3" %}
+{% set version = "0.16.4" %}
 {% set python_min = "3.10" %}
 
 package:
@@ -8,7 +8,7 @@ package:
 
 source:
   url: https://pypi.org/packages/source/{{ name[0] }}/{{ name }}/{{ name }}-{{ version }}.tar.gz
-  sha256: 487e690bedc01796e2b6bf6de0841210f2a2da7871903987918c19ccea5001d2
+  sha256: f6fd442c6c8d81c4a54055cfc546ca89d95c8635dda09164008d89760da71354
 
 build:
   noarch: python
@@ -24,7 +24,7 @@ requirements:
     - pandas <=2.2.3,>=0.25.0
     - numpy <=2.2.3,>=1.22.0
     - ordered-set <=4.1.0,>=4.0.2
-    - polars[pandas] <=1.22.0,>=0.20.4
+    - polars[pandas] <=1.23.0,>=0.20.4
     - python >={{ python_min }}
 
 
