@@ -1,5 +1,5 @@
 {% set name = "datacompy" %}
-{% set version = "0.19.0" %}
+{% set version = "0.19.1" %}
 {% set python_min = "3.10" %}
 
 package:
@@ -8,7 +8,7 @@ package:
 
 source:
   url: https://pypi.org/packages/source/{{ name[0] }}/{{ name }}/{{ name }}-{{ version }}.tar.gz
-  sha256: 406a02ad8df3d4bf232089bf0cc1ee7e470eb9834ca08947a713e585be74360c
+  sha256: 45667b67dbdb01d5bb812afbe93abcfb7a875a4de81404de24729d13044be749
 
 build:
   noarch: python
@@ -22,9 +22,9 @@ requirements:
     - setuptools
   run:
     - pandas <=2.3.3,>=2.2
-    - numpy <=2.3.4,>=1.26
+    - numpy <=2.3.5,>=1.26
     - ordered-set <=4.1,>=4.0.2
-    - polars[pandas] <=1.35.2,>=0.20.4
+    - polars[pandas] <=1.36.1,>=0.20.4
     - Jinja2 >=3.0.0
     - python >={{ python_min }}
 
