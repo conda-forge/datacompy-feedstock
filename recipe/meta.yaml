@@ -22,9 +22,9 @@ requirements:
     - setuptools
   run:
     - pandas <=2.3.3,>=2.2
-    - numpy <=2.3.5,>=1.26
+    - numpy <=2.4.3,>=1.26
     - ordered-set <=4.1,>=4.0.2
-    - polars[pandas] <=1.36.1,>=0.20.4
+    - polars[pandas] <=1.38.1,>=0.20.4
     - Jinja2 >=3.0.0
     - python >={{ python_min }}
 
