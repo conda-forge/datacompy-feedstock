@@ -24,7 +24,7 @@ requirements:
     - pandas >=2.2,<3.1
     - numpy >=1.26,<2.5
     - ordered-set <=4.1,>=4.0.2
-    - polars[pandas] >=0.20.4,<1.41
+    - polars[pandas] >=0.20.4,<1.42
     - Jinja2 >=3.0.0
     - python >={{ python_min }}
 
