@@ -21,10 +21,10 @@ requirements:
     - pip
     - setuptools
   run:
-    - pandas >=2.2,<3.1
+    - pandas >=2.2,<=3.1
     - numpy >=1.26.4,<2.6
     - ordered-set <=4.1,>=4.0.2
-    - polars[pandas] >=0.20.4,<1.45
+    - polars[pandas] >=0.20.4,<=2.1
     - Jinja2 >=3.0.0
     - python >={{ python_min }}
 
